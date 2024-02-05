@@ -1,0 +1,318 @@
+@media only screen and (min-width: 492px) {
+  .unsm-name {
+    font-size: 0.9em;
+  }
+
+  .fcs-name {
+    font-size: 0.9em;
+  }
+
+  .use-name {
+    font-size: 2.5em;
+    width: 70%;
+  }
+
+  .img-fondo {
+    width: 100%;
+    z-index: 1;
+  }
+
+  .img-fondo > img {
+    width: 100%;
+    z-index: 1;
+  }
+
+  /* SECTION STYLES - GENERAL*/
+  .section-title {
+    padding-bottom: 30px;
+  }
+
+  .section-title span:nth-child(1) {
+    font-size: 1.5em;
+  }
+
+  .section-title span:nth-child(3) {
+    font-size: 1em;
+  }
+
+  /* ADMISION SECTION STYLES */
+  .admision-section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .admision-title {
+    font-size: 3.5em;
+  }
+
+  .admision-subtitle {
+    font-size: 1.3em;
+  }
+
+  .admision-registration {
+    margin-top: 30px;
+    margin-bottom: 35px;
+  }
+
+  .admision-registration a {
+    font-size: 1.2em;
+    padding: 10px 15px 10px 15px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .logo {
+    display: block;
+    height: 96px;
+    margin-top: 0;
+    width: 96px;
+  }
+
+  .unsm-name {
+    font-size: 1.4em;
+  }
+
+  .fcs-name {
+    font-size: 1.3em;
+  }
+
+  .use-name {
+    font-size: 3.5em;
+    width: 70%;
+  }
+
+  /* SECTION STYLES - GENERAL*/
+  .section-title {
+    padding-bottom: 30px;
+  }
+
+  .section-title span:nth-child(1) {
+    font-size: 1.5em;
+  }
+
+  .section-title span:nth-child(3) {
+    font-size: 1em;
+  }
+
+  /* ADMISION SECTION STYLES */
+  .admision-section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .admision-title {
+    font-size: 3.5em;
+  }
+
+  .admision-subtitle {
+    font-size: 1.3em;
+  }
+
+  .admision-registration {
+    margin-top: 30px;
+    margin-bottom: 35px;
+  }
+
+  .admision-registration a {
+    font-size: 1.2em;
+    padding: 10px 15px 10px 15px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .logo {
+    height: 112px;
+    width: 112px;
+  }
+
+  .unsm-name {
+    font-size: 1.8em;
+  }
+
+  .fcs-name {
+    font-size: 1.6em;
+  }
+
+  .use-name {
+    font-size: 4em;
+    width: 70%;
+  }
+
+  /* SECTION STYLES - GENERAL*/
+  .section-title {
+    padding-bottom: 30px;
+  }
+
+  .section-title span:nth-child(1) {
+    font-size: 1.5em;
+  }
+
+  .section-title span:nth-child(3) {
+    font-size: 1em;
+  }
+
+  /* ADMISION SECTION STYLES */
+  .admision-section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .admision-title {
+    font-size: 3.5em;
+  }
+
+  .admision-subtitle {
+    font-size: 1.3em;
+  }
+
+  .admision-registration {
+    margin-top: 30px;
+    margin-bottom: 35px;
+  }
+
+  .admision-registration a {
+    font-size: 1.2em;
+    padding: 10px 15px 10px 15px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  /* HEADER SECTION STYLES */
+  .header-section {
+    background-image: linear-gradient(to bottom, #81163390, #81163389);
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+  }
+
+  .logo {
+    height: 128px;
+    width: 128px;
+  }
+
+  .unsm-name {
+    font-size: 2.2em;
+  }
+
+  .fcs-name {
+    font-size: 1.9em;
+  }
+
+  .use-name {
+    font-size: 4.5em;
+  }
+
+  /* SECTION STYLES - GENERAL*/
+  .section-title {
+    padding-bottom: 30px;
+  }
+
+  .section-title span:nth-child(1) {
+    font-size: 2.4em;
+  }
+
+  .section-title span:nth-child(3) {
+    font-size: 1.5em;
+  }
+
+  /* ADMISION SECTION STYLES */
+  .admision-section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .admision-title {
+    font-size: 5em;
+  }
+
+  .admision-subtitle {
+    font-size: 1.8em;
+  }
+
+  .admision-registration {
+    margin-top: 30px;
+    margin-bottom: 35px;
+  }
+
+  .admision-registration a {
+    font-size: 1.2em;
+    padding: 10px 15px 10px 15px;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  /* NAV STYLES */
+  nav {
+    padding-left: 170px;
+    padding-right: 170px;
+  }
+
+  .parent-container {
+    padding-left: 170px;
+    padding-right: 170px;
+  }
+
+  /* HEADER SECTION STYLES */
+  .header-section {
+    background-image: linear-gradient(to bottom, #81163390, #81163389);
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+  }
+
+  .logo {
+    display: block;
+    height: 128px;
+    margin-top: 0;
+    width: 128px;
+  }
+
+  .unsm-name {
+    font-size: 2.2em;
+  }
+
+  .fcs-name {
+    font-size: 1.9em;
+  }
+
+  .use-name {
+    font-size: 4.5em;
+  }
+
+  /* SECTION STYLES - GENERAL*/
+  .section-title {
+    padding-bottom: 30px;
+  }
+
+  .section-title span:nth-child(1) {
+    font-size: 2.4em;
+  }
+
+  .section-title span:nth-child(3) {
+    font-size: 1.5em;
+  }
+
+  /* ADMISION SECTION STYLES */
+  .admision-section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .admision-title {
+    font-size: 5em;
+  }
+
+  .admision-subtitle {
+    font-size: 1.8em;
+  }
+
+  .admision-registration {
+    margin-top: 30px;
+    margin-bottom: 35px;
+  }
+
+  .admision-registration a {
+    font-size: 1.2em;
+    padding: 10px 15px 10px 15px;
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Segunda Especialidad - FCS",
+  "short_name": "Página USE",
+  "icons": [
+    {
+      "src": "./img/icons/android-icon-192x192.png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": "/index.html",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "scope": "/",
+  "shortcuts": [
+    {
+      "name": "Abrir aplicación",
+      "short_name": "Abrir",
+      "url": "./index.html",
+      "description": "Abre la aplicación"
+    }
+  ],
+  "permissions": ["notifications"]
+}
