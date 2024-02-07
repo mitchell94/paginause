@@ -18,7 +18,7 @@
     <nav>
       <div class="container">
         <div class="row align-items-stretch">
-          <div class="col d-flex justify-content-start align-items-center">
+          <div class="col-auto social-article">
             <a
               href="https://www.facebook.com/UnidaddeSegundaEspecialidad?locale=es_LA"
               target="_blank"
@@ -26,7 +26,20 @@
               <img src="img/facebook.svg" alt="" width="28" height="28"
             /></a>
           </div>
-          <div class="col d-flex justify-content-end align-items-center">
+          <div class="col p-0">
+            <div id="menu">
+              <ul class="menu-lista">
+                <li>
+                  <a href="index.html" class="menu-lista-active">INICIO</a>
+                </li>
+                <li><a href="admision.html">ADMISIÓN</a></li>
+                <li><a href="aro.html">PROGRAMA ARO</a></li>
+                <li><a href="eco.html">PROGRAMA ECO</a></li>
+                <li><a href="cacu.html">PROGRAMA CACU</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-auto d-flex justify-content-end align-items-center">
             <a
               href="https://usefcs.unsm.edu.pe/admin"
               target="_blank"
@@ -71,9 +84,7 @@
       <section class="parent-container admision-section">
         <div class="container">
           <div class="row">
-            <div
-              class="col d-flex align-items-center justify-content-center"
-            >
+            <div class="col d-flex align-items-center justify-content-center">
               <div class="text-center">
                 <div class="admision-title">ADMISIÓN 2024-I</div>
                 <!-- <div class="admision-title">
@@ -221,38 +232,6 @@
       <span class="fa-solid fa-bars"></span>
     </button>
 
-    <div class="menu-hidden" id="menu">
-      <div class="list-group">
-        <a href="index.html" class="list-group-item list-group-item-action"
-          >INICIO</a
-        >
-        <a href="admision.html" class="list-group-item list-group-item-action"
-          >ADMISIÓN</a
-        >
-        <a href="aro.html" class="list-group-item list-group-item-action"
-          >PROGRAMA ARO</a
-        >
-        <a href="eco.html" class="list-group-item list-group-item-action"
-          >PROGRAMA ECO</a
-        >
-        <a href="cacu.html" class="list-group-item list-group-item-action"
-          >PROGRAMA CACU</a
-        >
-      </div>
-    </div>
-
-    <script>
-      function mostrarMenu() {
-        let menu = document.querySelector("#menu");
-        let state = menu.className;
-        if (state === "menu-hidden") {
-          menu.classList.remove("menu-hidden");
-          menu.className = "menu-show";
-        } else {
-          menu.classList.remove("menu-show");
-          menu.className = "menu-hidden";
-        }
-      }
-    </script>
+    <script src="script.js"></script>
   </body>
 </html>
