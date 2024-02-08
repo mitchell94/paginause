@@ -13,10 +13,6 @@ function actualizarInfo() {
     window.innerWidth ||
     document.documentElement.clientWidth ||
     document.body.clientWidth;
-  var alto =
-    window.innerHeight ||
-    document.documentElement.clientHeight ||
-    document.body.clientHeight;
 
   if (ancho >= 992) {
     menu.style.display = "flex";
